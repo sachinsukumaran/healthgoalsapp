@@ -1,0 +1,53 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+*.env
+
+# Python tooling
+*.log
+*.sqlite
+*.db
+instance/
+.mypy_cache/
+.pytest_cache/
+
+# VS Code / IDE configs
+.vscode/
+.idea/
+
+# Jupyter and notebooks
+.ipynb_checkpoints
+notebooks/__pycache__/
+
+# Streamlit
+.streamlit/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+coverage/
+htmlcov/
+.tox/
+.nox/
+
+# Optional: OS-specific or deployment
+*.bak
+*.swp
+*.tmp
+*.old
+
+# Pip wheel files
+*.egg-info/
+*.egg
+dist/
+build/
